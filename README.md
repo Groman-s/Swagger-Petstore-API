@@ -18,7 +18,7 @@ This is a sample server Petstore server.  You can find out more about Swagger at
 Building the API client library requires:
 
 1. Java 17+
-2. Maven/Gradle
+2. Maven
 
 ## Installation
 
@@ -47,21 +47,6 @@ Add this dependency to your project's POM:
   <version>1.0.0</version>
   <scope>compile</scope>
 </dependency>
-```
-
-### Gradle users
-
-Add this dependency to your project's build file:
-
-```groovy
-  repositories {
-    mavenCentral()     // Needed if the 'openapi-generator-cli-7' jar has been published to maven central.
-    mavenLocal()       // Needed if the 'openapi-generator-cli-7' jar has been published to the local maven repo.
-  }
-
-  dependencies {
-     implementation "com.goyanov:openapi-generator-cli-7:1.0.0"
-  }
 ```
 
 ### Others
